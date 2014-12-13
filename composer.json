@@ -1,0 +1,26 @@
+{
+	"name": "dmzx/modxcommands",
+	"type": "phpbb-extension",
+	"description": "Displays MODX commands in a drop downbox",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.0",
+	"time": "2014-12-13",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"email": "info@dmzx-web.net",
+			"homepage": "http://www.dmzx-web.net",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3"
+	},
+	"extra": {
+		"display-name": "MODx commands",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*@dev"
+		}
+	}
+}

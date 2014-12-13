@@ -1,0 +1,5 @@
+services:
+    dmzx.modxcommands.listener:
+        class: dmzx\modxcommands\event\listener
+        tags:
+            - { name: event.listener }
