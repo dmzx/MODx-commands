@@ -6,7 +6,7 @@
 * @copyright (c) 2014 by dmzx (www.dmzx-web.net)
 * Croatian translation by Ančica Sečan (http://ancica.sunceko.net)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
+*
 */
 
 if (!defined('IN_PHPBB'))

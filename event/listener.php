@@ -6,7 +6,7 @@
 * @author dmzx (www.dmzx-web.net)
 * @copyright (c) 2014 by dmzx (www.dmzx-web.net)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
+*
 */
 
 namespace dmzx\modxcommands\event;
@@ -25,7 +25,7 @@ class listener implements EventSubscriberInterface
 			'core.user_setup' => 'load_language_on_setup',
 		);
 	}
-	
+
 	public function load_language_on_setup($event)
 	{
 		$lang_set_ext = $event['lang_set_ext'];
