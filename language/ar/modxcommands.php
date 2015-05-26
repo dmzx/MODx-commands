@@ -47,9 +47,9 @@ $lang = array_merge($lang, array(
 			'BBCODE21_BEFORE'			=> '[b][color=#BF0080]أضف قبل[/color][/b] [i][size=85]أضف هذه السطور في سطر جديد قبل السطور المطلوب البحث عنها سابقاً[/size][/i]',
 			'BBCODE21_REPLACE'			=> '[b][color=#BF0000]استبدل بـ[/b][/color] [i][size=85]استبدل السطور أعلاه بالسطور التالية[/size][/i]',
 			'BBCODE21_DELETE'			=> '[b][color=#FF0000]احذف[/b][/color] [i][size=85]احذف السطور السابقة[/size][/i]',
-			'BBCODE21_INFIND'			=> '[b][color=#BF0080]ابحث بنفس السطر عن'[/b][/color] [i][size=85]هذا بحث جزئي للسطر من عملية بحث عن سطر كامل[/size][/i]',
-			'BBCODE21_INAFTER'			=> '[b][color=#BF0080]بنفس السطر , أضف بعد'[/b][/color]',
-			'BBCODE21_INBEFORE'		 => '[b][color=#BF0080]بنفس السطر , أضف قبل'[/b][/color]',
-			'BBCODE21_INREPLACE'		=> '[b][color=#BF0080]بنفس السطر , استبدل بـ'[/b][/color]',
+			'BBCODE21_INFIND'			=> '[b][color=#BF0080]ابحث بنفس السطر عن[/b][/color] [i][size=85]هذا بحث جزئي للسطر من عملية بحث عن سطر كامل[/size][/i]',
+			'BBCODE21_INAFTER'			=> '[b][color=#BF0080]بنفس السطر , أضف بعد[/b][/color]',
+			'BBCODE21_INBEFORE'		 => '[b][color=#BF0080]بنفس السطر , أضف قبل[/b][/color]',
+			'BBCODE21_INREPLACE'		=> '[b][color=#BF0080]بنفس السطر , استبدل بـ[/b][/color]',
 
 ));
