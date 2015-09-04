@@ -1,13 +1,17 @@
 <?php
 /**
 *
-* @package MODX commands
-* @author dmzx (www.dmzx-web.net)
-* @copyright (c) 2014 by dmzx (www.dmzx-web.net)
+* MODx commands extension for the phpBB Forum Software package.
+* French translation by discovery & Galixte (http://www.galixte.com)
+*
+* @copyright (c) 2015 dmzx  <http://www.dmzx-web.net>
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
+/**
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -31,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -44,13 +48,13 @@ $lang = array_merge($lang, array(
 			'MODX_IN_LINE_ADD_AFTER'	=> 'Dans la ligne ajouter après',
 			'MODX_IN_LINE_ADD_BEFORE'	=> 'Dans la ligne ajouter avant',
 			'MODX_IN_LINE_REPLACE_WITH' => 'Dans la ligne remplacer par',
-			'MODX_CMD'					=> 'MODx command',
-			'BBCODE21_FIND'			 => '[b]Trouver[/b] [i][size=85]ceci peut ne correspondre qu’à un résultat partiel et non à la ligne entière.[/size][/i]',
-			'BBCODE21_AFTER'			=> '[b][color=#008000]Ajouter après[/color][/b] [i][size=85]ajoutez ces/cette ligne(s) sur une nouvelle ligne vierge et après les lignes que vous aviez à trouver précédemment.[/size][/i]',
-			'BBCODE21_BEFORE'			=> '[b][color=#BF0080]Ajouter avant[/color][/b] [i][size=85]ajoutez ces/cette ligne(s) sur une nouvelle ligne vierge et avant les lignes que vous aviez à trouver précédemment.[/size][/i]',
-			'BBCODE21_REPLACE'			=> '[b][color=#BF0000]Remplacer par[/b][/color] [i][size=85]remplacez les lignes que vous aviez à trouver précédemment par les lignes suivantes.[/size][/i]',
-			'BBCODE21_DELETE'			=> '[b][color=#FF0000]Supprimer[/b][/color] [i][size=85]Supprimez les lignes qui précédent.[/size][/i]',
-			'BBCODE21_INFIND'			=> '[b][color=#BF0080]Dans la ligne trouver[/b][/color] [i][size=85]ceci correspond à un résultat partiel de la ligne dans laquelle il faut effectuer les opérations.[/size][/i]',
+			'MODX_CMD'					=> 'Commande MODX',
+			'BBCODE21_FIND'			 => '[b]Trouver[/b] : [i][size=85]peut correspondre à un résultat partiel dans un ligne de code ou à une ligne de code entière.[/size][/i]',
+			'BBCODE21_AFTER'			=> '[b][color=#008000]Ajouter après[/color][/b] : [i][size=85]ajouter ce code sur une nouvelle ligne, située après les lignes de code précédemment trouvées.[/size][/i]',
+			'BBCODE21_BEFORE'			=> '[b][color=#BF0080]Ajouter avant[/color][/b] : [i][size=85]ajouter ce code sur une nouvelle ligne, située avant les lignes de code précédemment trouvées.[/size][/i]',
+			'BBCODE21_REPLACE'			=> '[b][color=#BF0000]Remplacer par[/b][/color] : [i][size=85]remplacer les lignes de code précédemment trouvées par celles ci-dessous.[/size][/i]',
+			'BBCODE21_DELETE'			=> '[b][color=#FF0000]Supprimer[/b][/color] : [i][size=85]supprimer les lignes de code ci-dessous.[/size][/i]',
+			'BBCODE21_INFIND'			=> '[b][color=#BF0080]Dans la ligne trouver[/b][/color] : [i][size=85]correspond à un résultat partiel d’une ligne de code dans laquelle des actions sont à effectuer.[/size][/i]',
 			'BBCODE21_INAFTER'			=> '[b][color=#BF0080]Dans la ligne ajouter après[/b][/color]',
 			'BBCODE21_INBEFORE'		 => '[b][color=#BF0080]Dans la ligne ajouter avant[/b][/color]',
 			'BBCODE21_INREPLACE'		=> '[b][color=#BF0080]Dans la ligne remplacer par[/b][/color]',
