@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 			'MODX_IN_LINE_ADD_BEFORE'	=> 'Dans la ligne ajouter avant',
 			'MODX_IN_LINE_REPLACE_WITH' => 'Dans la ligne remplacer par',
 			'MODX_CMD'					=> 'Commandes MODX',
-			'BBCODE21_FIND'			 => '[b]Trouver[/b] : [i][size=85]peut correspondre à un résultat partiel dans un ligne de code ou à une ligne de code entière.[/size][/i]',
+			'BBCODE21_FIND'			 => '[b]Trouver[/b] : [i][size=85]peut correspondre à un résultat partiel dans une ligne de code ou à une ligne de code entière.[/size][/i]',
 			'BBCODE21_AFTER'			=> '[b][color=#008000]Ajouter après[/color][/b] : [i][size=85]ajouter ce code sur une nouvelle ligne, située après les lignes de code précédemment trouvées.[/size][/i]',
 			'BBCODE21_BEFORE'			=> '[b][color=#BF0080]Ajouter avant[/color][/b] : [i][size=85]ajouter ce code sur une nouvelle ligne, située avant les lignes de code précédemment trouvées.[/size][/i]',
 			'BBCODE21_REPLACE'			=> '[b][color=#BF0000]Remplacer par[/b][/color] : [i][size=85]remplacer les lignes de code précédemment trouvées par celles ci-dessous.[/size][/i]',
