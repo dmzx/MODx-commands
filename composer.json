@@ -23,9 +23,9 @@
 			"phpbb/phpbb": "3.1.*@dev"
 		},
 		"version-check": {
-			"host": "www.phpbb.com",
-			"directory": "/customise/db/extension/modx_commands",
-			"filename": "version_check"
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "modxcommands_version.json"
 		}
 	}
 }
