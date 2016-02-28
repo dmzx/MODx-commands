@@ -1,5 +1,4 @@
 <?php
-
 /**
 *
 * @package MODX commands
