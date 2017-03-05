@@ -4,7 +4,7 @@
 	"description": "Displays MODX commands in a drop downbox",
 	"homepage": "http://www.dmzx-web.net",
 	"version": "1.0.4",
-	"time": "2014-12-13",
+	"time": "2017-01-21",
 	"license": "GPL-2.0",
 	"authors": [
 		{
@@ -15,12 +15,16 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3"
+		"php": ">=5.3",
+		"phpbb/phpbb": ">=3.1.0,<3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
 	},
 	"extra": {
 		"display-name": "MODx commands",
 		"soft-require": {
-			"phpbb/phpbb": "3.1.*@dev"
+			"phpbb/phpbb": ">=3.1.0,<3.3"
 		},
 		"version-check": {
 			"host": "www.dmzx-web.net",

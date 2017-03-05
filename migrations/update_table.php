@@ -12,7 +12,6 @@ namespace dmzx\modxcommands\migrations;
 
 class update_table extends \phpbb\db\migration\migration
 {
-
 	public function update_data()
 	{
 		return array(

@@ -11,12 +11,12 @@
 
 if (!defined('IN_PHPBB'))
 {
-exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-$lang = array();
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,24 +36,23 @@ $lang = array();
 //
 
 $lang = array_merge($lang, array(
-'MODX_FIND'=>'Pronađi',
-'MODX_ADD_AFTER'=>'Dodaj iza',
-'MODX_ADD_BEFORE'=>'Dodaj ispred',
-'MODX_REPLACE_WITH'=>'Zamijeni sa',
-'MODX_DELETE'=>'Izbriši',
-'MODX_IN_LINE_FIND'=>'Pronađi u retku',
-'MODX_IN_LINE_ADD_AFTER'=>'U retku dodaj iza',
-'MODX_IN_LINE_ADD_BEFORE'=>'U retku dodaj ispred',
-'MODX_IN_LINE_REPLACE_WITH'=>'U retku zamijeni sa',
-'MODX_CMD'=>'MODx naredba',
-'BBCODE21_FIND'=>'[b]Pronađi[/b] [i][size=85]Moguće je da ćeš pronaći samo dio koda, ne cijeli/e redak/tke.[/size][/i]',
-'BBCODE21_AFTER'=>'[b][color=#008000]Dodaj iza[/color][/b] [i][size=85]Dodaj ovaj/e redak/tke, iza pronađenog, u novi prazan redak.[/size][/i]',
-'BBCODE21_BEFORE'=>'[b][color=#BF0080]Dodaj ispred[/color][/b] [i][size=85]Dodaj ovaj/e redak/tke, ispred pronađenog, u novi prazan redak.[/size][/i]',
-'BBCODE21_REPLACE'=>'[b][color=#BF0000]Zamijeni sa[/b][/color] [i][size=85]Pronađeno zamijeni sa donjim retkom/dcima.[/size][/i]',
-'BBCODE21_DELETE'=>'[b][color=#FF0000]Izbriši[/b][/color] [i][size=85]Izbriši pronađeno.[/size][/i]',
-'BBCODE21_INFIND'=>'[b][color=#BF0080]Pronađi u retku[/b][/color] [i][size=85]U retku tražiš (samo) dio koda poradi čega je moguće (samo) parcijalno pronalaženje.[/size][/i]',
-'BBCODE21_INAFTER'=>'[b][color=#BF0080]U retku dodaj iza[/b][/color]',
-'BBCODE21_INBEFORE'=>'[b][color=#BF0080]U retku dodaj ispred[/b][/color]',
-'BBCODE21_INREPLACE'=>'[b][color=#BF0080]U retku zamijeni sa[/b][/color]',
-
+	'MODX_FIND'						=>'Pronađi',
+	'MODX_ADD_AFTER'				=>'Dodaj iza',
+	'MODX_ADD_BEFORE'				=>'Dodaj ispred',
+	'MODX_REPLACE_WITH'				=>'Zamijeni sa',
+	'MODX_DELETE'					=>'Izbriši',
+	'MODX_IN_LINE_FIND'				=>'Pronađi u retku',
+	'MODX_IN_LINE_ADD_AFTER'		=>'U retku dodaj iza',
+	'MODX_IN_LINE_ADD_BEFORE'		=>'U retku dodaj ispred',
+	'MODX_IN_LINE_REPLACE_WITH'		=>'U retku zamijeni sa',
+	'MODX_CMD'						=>'MODx naredba',
+	'BBCODE21_FIND'					=>'[b]Pronađi[/b] [i][size=85]Moguće je da ćeš pronaći samo dio koda, ne cijeli/e redak/tke.[/size][/i]',
+	'BBCODE21_AFTER'				=>'[b][color=#008000]Dodaj iza[/color][/b] [i][size=85]Dodaj ovaj/e redak/tke, iza pronađenog, u novi prazan redak.[/size][/i]',
+	'BBCODE21_BEFORE'				=>'[b][color=#BF0080]Dodaj ispred[/color][/b] [i][size=85]Dodaj ovaj/e redak/tke, ispred pronađenog, u novi prazan redak.[/size][/i]',
+	'BBCODE21_REPLACE'				=>'[b][color=#BF0000]Zamijeni sa[/b][/color] [i][size=85]Pronađeno zamijeni sa donjim retkom/dcima.[/size][/i]',
+	'BBCODE21_DELETE'				=>'[b][color=#FF0000]Izbriši[/b][/color] [i][size=85]Izbriši pronađeno.[/size][/i]',
+	'BBCODE21_INFIND'				=>'[b][color=#BF0080]Pronađi u retku[/b][/color] [i][size=85]U retku tražiš (samo) dio koda poradi čega je moguće (samo) parcijalno pronalaženje.[/size][/i]',
+	'BBCODE21_INAFTER'				=>'[b][color=#BF0080]U retku dodaj iza[/b][/color]',
+	'BBCODE21_INBEFORE'				=>'[b][color=#BF0080]U retku dodaj ispred[/b][/color]',
+	'BBCODE21_INREPLACE'			=>'[b][color=#BF0080]U retku zamijeni sa[/b][/color]',
 ));
